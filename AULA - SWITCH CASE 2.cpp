@@ -12,9 +12,9 @@ int main (){
 		break;
 		case 19 ... 60: printf("adulto");
 		break;
-		case 100: printf("idoso");
+		case 61 ... 100: printf("idoso");
 		break;
-		case 150 : printf("zumbi");
+		case 101 ... 150 : printf("zumbi");
 		break;
 		default: printf ("numero invalido");
 		break;
